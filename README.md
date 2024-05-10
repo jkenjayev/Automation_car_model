@@ -7,7 +7,10 @@
         installation: sudo apt install nodejs | homebrew install node
      2. npm version: 10.7.0
         installation: sudo apt install npm | homebrew install npm
-    
+
+## Precondition:
+    install necessary packages: npm intall
+
 ## Usage:
     1. UI mode: npm run cypress:ui
     2. CLI mode: npm run cypress:cli
