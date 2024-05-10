@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "pretest": "rimraf -rf ./downloads",
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "precypress:run": "rimraf -rf ./downloads; rimraf -rf ./cypress/videos",
+    "cypress:run": "npx cypress run"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "cypress": "12.16.0",
+    "resolve-from": "^5.0.0",
     "typescript": "^5.4.5"
   }
 }

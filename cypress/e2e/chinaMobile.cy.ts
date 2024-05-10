@@ -1,7 +1,7 @@
+import "cypress-if"
 import {
 	getActiveImage,
 	getAllModelCards,
-	getAllModelDetails,
 	getCarTitle,
 	getManufactureTitle,
 	openManufacturePageLink,
@@ -22,7 +22,7 @@ const selectManufacture = () => {
 
 const walkThroughManufactureDetailsPage = (links: any) => {
 	describe("should walk Manufacture model details page", () => {
-		for (let i = 0; i < 1; i++) {
+		for (let i = 0; i < links.length; i++) {
 			selectLManufactureFromMenu(i);
 			createManufactureFolder();
 			selectEachModel();
@@ -41,41 +41,42 @@ const createManufactureFolder = () => {
 const selectEachModel = () => {
 	describe("Select model from menu", () => {
 		getAllModelCards().then($modelLinks => {
-			
-			// walkThroughModels()
+			walkThroughModels($modelLinks)
 		})
 	})
 }
 
-/*const walkThroughModels = () => {
+const walkThroughModels = ($modelLinks: any) => {
 	describe("should walk through models", () => {
-		getAllModelCards().then($modelCards => {
-			for (let k = 0; k < $modelCards.length; k++) {
-				cy.log("model counts: -----> ", $modelCards.length, k)
-				createModelFolder($modelCards[k])
-				openModelDetailsPage($modelCards[k])
-			}
-		})
+		for (let k = 0; k < $modelLinks.length; k++) {
+			createModelFolder(k)
+		}
 	})
-}*/
+}
 
-/*const createModelFolder = (model: any): any => {
+
+const createModelFolder = (model: any): any => {
 	describe("should create model folder", (): any => {
 		getManufactureTitle().then(manufactureTitle => {
 			getCarTitle(model).then(modelTitle => {
 				cy.mkInnerDir(manufactureTitle, modelTitle);
+				cy.wait(500)
+				openModelDetailsPage(model)
+				cy.wait(500)
+				downloadCarImages(manufactureTitle, modelTitle)
 			})
+			cy.go("back")
 		})
 	})
-}*/
+}
 
 
 const downloadCarImages = (manufactureTitle: string, modelTitle: string) => {
 	describe("should download 10 images of the car", () => {
-		showNextImg().then($btn => {
+		showNextImg().if().then($btn => {
 			for (let z = 0; z <= 10; z++) {
 				cy.wrap($btn).click({force: true});
-				getActiveImage().then($img => {
+				getActiveImage().if().then($img => {
 					cy.log($img.prop("src"));
 					cy.task("downloadImage",
 						{
@@ -92,6 +93,7 @@ const downloadCarImages = (manufactureTitle: string, modelTitle: string) => {
 		})
 	})
 }
+
 
 describe("ChinaMobil.ru", () => {
 	beforeEach(() => {

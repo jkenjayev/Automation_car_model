@@ -7,7 +7,8 @@ import {
 	manufactureTitle,
 	modelDetailsCard,
 	modelDetailsPageLink,
-	nextImgBtn
+	nextImgBtn,
+	carTitle
 } from "../repositories/chinaMobile.repo";
 
 const chinaMobilAction = {
@@ -24,7 +25,7 @@ const chinaMobilAction = {
 	
 	
 	//
-	getCarTitle: (car: any) => cy.wrap(car).find('h2').invoke("text"),
+	getCarTitle: (car: any) =>  carTitle(car),
 	
 	
 	// car details page
