@@ -11,3 +11,6 @@
 ## Usage:
     1. UI mode: npm run cypress:ui
     2. CLI mode: npm run cypress:cli
+
+## data:
+    all images as stored in download/images folder
