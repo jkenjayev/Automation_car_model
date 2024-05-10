@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pretest": "rimraf -rf ./downloads",
-    "test": "npx cypress open",
-    "precypress:run": "rimraf -rf ./downloads; rimraf -rf ./cypress/videos",
-    "cypress:run": "npx cypress run"
+    "precypress:ui": "rimraf -rf ./downloads",
+    "cypress:ui": "npx cypress open",
+    "precypress:cli": "rimraf -rf ./downloads; rimraf -rf ./cypress/videos",
+    "cypress:cli": "npx cypress run"
   },
   "keywords": [],
   "author": "",

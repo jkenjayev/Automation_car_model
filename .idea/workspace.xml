@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58b38a0f-0635-472d-bf58-e5319cee9a31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cypress/screenshots/chinaMobile.cy.ts/ChinaMobil.ru -- should open chinaMobil.ru site (failed).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Fengyun_A8/chery-fengyun-a8-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Fengyun_A8/chery-fengyun-a8-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Fengyun_A8/chery-fengyun-a8-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Shuxiangjia/chery-eq7-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Shuxiangjia/chery-eq7-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Shuxiangjia/chery-eq7-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Shuxiangjia/chery-eq7-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Shuxiangjia/chery-eq7-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Shuxiangjia/chery-eq7-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Shuxiangjia/chery-eq7-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Shuxiangjia/chery-eq7-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Shuxiangjia/chery-eq7-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Shuxiangjia/chery-eq7-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/photos/Chery/Chery_Shuxiangjia/chery-eq7-11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/chinaMobile.cy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/chinaMobile.cy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/actions/chinaMobile.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/actions/chinaMobile.action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/repositories/chinaMobile.repo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/repositories/chinaMobile.repo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/chinaMobile.cy.ts/ChinaMobil.ru -- should open chinaMobil.ru site (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/chinaMobile.cy.ts/ChinaMobil.ru -- should open chinaMobil.ru site (failed).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -47,32 +32,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.cypress:open.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cypress:run.executor&quot;: &quot;Run&quot;,
-    &quot;npm.pretest.executor&quot;: &quot;Run&quot;,
-    &quot;npm.test.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/pc/programming/cypress/old/final/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.cypress:cli.executor": "Run",
+    "npm.cypress:open.executor": "Run",
+    "npm.cypress:run.executor": "Run",
+    "npm.precypress:cli.executor": "Run",
+    "npm.precypress:run.executor": "Run",
+    "npm.pretest.executor": "Run",
+    "npm.test.executor": "Run",
+    "ts.external.directory.path": "/Users/pc/programming/cypress/old/final/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="npm.test">
-    <configuration name="cypress:open" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="npm.precypress:cli">
+    <configuration name="cypress:cli" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="cypress:open" />
+        <script value="cypress:cli" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -88,11 +76,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="pretest" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="precypress:cli" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="pretest" />
+        <script value="precypress:cli" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="precypress:run" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="precypress:run" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -110,10 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.precypress:cli" />
+        <item itemvalue="npm.cypress:cli" />
+        <item itemvalue="npm.precypress:run" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.cypress:run" />
-        <item itemvalue="npm.pretest" />
-        <item itemvalue="npm.cypress:open" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +128,7 @@
       <workItem from="1715322098797" duration="11305000" />
       <workItem from="1715338872471" duration="3569000" />
       <workItem from="1715343954416" duration="892000" />
-      <workItem from="1715361234947" duration="1457000" />
+      <workItem from="1715361234947" duration="2462000" />
     </task>
     <servers />
   </component>
