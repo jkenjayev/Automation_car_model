@@ -7,7 +7,8 @@
     "precypress:ui": "rimraf -rf ./downloads",
     "cypress:ui": "npx cypress open",
     "precypress:cli": "rimraf -rf ./downloads; rimraf -rf ./cypress/videos",
-    "cypress:cli": "npx cypress run"
+    "cypress:cli:chrome": "npx cypress run --browser chrome",
+    "cypres:cli:firefox": "npx cypress runn --browser firefox"
   },
   "keywords": [],
   "author": "",

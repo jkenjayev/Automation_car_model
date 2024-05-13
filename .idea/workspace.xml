@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58b38a0f-0635-472d-bf58-e5319cee9a31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/chinaMobile.cy.ts/ChinaMobil.ru -- should open chinaMobil.ru site (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/chinaMobile.cy.ts/ChinaMobil.ru -- should open chinaMobil.ru site (failed).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +44,7 @@
     "npm.cypress:cli.executor": "Run",
     "npm.cypress:open.executor": "Run",
     "npm.cypress:run.executor": "Run",
+    "npm.cypress:ui.executor": "Run",
     "npm.precypress:cli.executor": "Run",
     "npm.precypress:run.executor": "Run",
     "npm.pretest.executor": "Run",
@@ -66,11 +64,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="cypress:run" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="cypress:ui" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="cypress:run" />
+        <script value="cypress:ui" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -109,10 +107,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.precypress:cli" />
+        <item itemvalue="npm.cypress:ui" />
         <item itemvalue="npm.cypress:cli" />
         <item itemvalue="npm.precypress:run" />
         <item itemvalue="npm.test" />
-        <item itemvalue="npm.cypress:run" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +126,8 @@
       <workItem from="1715322098797" duration="11305000" />
       <workItem from="1715338872471" duration="3569000" />
       <workItem from="1715343954416" duration="892000" />
-      <workItem from="1715361234947" duration="2462000" />
+      <workItem from="1715361234947" duration="3143000" />
+      <workItem from="1715575953336" duration="703000" />
     </task>
     <servers />
   </component>
